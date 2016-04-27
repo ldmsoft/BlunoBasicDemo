@@ -61,7 +61,7 @@
         android:bufferType="editable"
         android:ems="10"
         android:inputType="text"
-        android:text="Data sending Area"
+        android:hint="Data sending Area"
         android:textColor="#999999"
         android:textSize="20dip" />
 
