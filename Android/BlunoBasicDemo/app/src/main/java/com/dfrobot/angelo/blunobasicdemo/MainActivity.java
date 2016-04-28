@@ -22,6 +22,7 @@ public class MainActivity extends BlunoLibrary {
         setContentView(R.layout.activity_main);
         onCreateProcess();                                                        //onCreate Process by BlunoLibrary
 
+
         serialBegin(115200);                                                    //set the Uart Baudrate on BLE chip to 115200
 
         serialReceivedText = (TextView) findViewById(R.id.serialReveicedText);    //initial the EditText of the received data
